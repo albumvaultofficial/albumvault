@@ -1,19 +1,21 @@
-# AlbumVault Website
+# AlbumVault Website – korrigierte Version
 
-Neue statische Website für GitHub Pages.
+Diese Version behebt beide Icon-Probleme:
 
-## Enthalten
-- `index.html` – Startseite
-- `privacy.html` – Datenschutzerklärung / Privacy Policy
-- `support.html` – Support und FAQ
-- `assets/albumvault-icon.jpg` – offizielles App-Icon
-- `assets/style.css` – Design
-- `assets/script.js` – Sprachumschaltung Deutsch/Englisch
+- Das große App-Icon behält immer das quadratische Originalformat.
+- In der Navigation wird das offizielle App-Icon verwendet.
+- Ein neuer Dateiname verhindert, dass Safari oder GitHub Pages ein altes Icon aus dem Cache anzeigen.
 
-## Veröffentlichung
-1. Alle bisherigen Dateien im GitHub-Repository ersetzen.
-2. Den Inhalt dieses Ordners in das Stammverzeichnis des Repositorys hochladen.
-3. GitHub Pages auf `main` und `/(root)` einstellen.
-4. Einige Minuten auf die Aktualisierung warten.
+## Wichtig beim Hochladen
 
-Es ist bewusst keine Impressumsseite enthalten.
+Lade alle Dateien und den kompletten Ordner `assets` erneut in das Stammverzeichnis des GitHub-Repositorys hoch.
+
+Neue Icon-Datei:
+`assets/albumvault-official-icon-v2.jpg`
+
+Nach dem Commit:
+1. 1–3 Minuten warten.
+2. Safari neu laden.
+3. Falls noch die alte Version erscheint: `⌘ + Option + R` drücken oder die Seite in einem privaten Fenster öffnen.
+
+Die Website enthält bewusst kein Impressum.
