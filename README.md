@@ -1,24 +1,19 @@
-# AlbumVault Website – GitHub Pages
+# AlbumVault Website
 
-Diese statische Website enthält:
+Neue statische Website für GitHub Pages.
 
-- `index.html` – Startseite mit offiziellem App-Icon
-- `privacy.html` – Datenschutzerklärung für die TestFlight-Beta
-- `support.html` – Support und TestFlight-Feedback
-- `assets/` – Design, Skript und App-Icon
+## Enthalten
+- `index.html` – Startseite
+- `privacy.html` – Datenschutzerklärung / Privacy Policy
+- `support.html` – Support und FAQ
+- `assets/albumvault-icon.jpg` – offizielles App-Icon
+- `assets/style.css` – Design
+- `assets/script.js` – Sprachumschaltung Deutsch/Englisch
 
-## GitHub Pages veröffentlichen
+## Veröffentlichung
+1. Alle bisherigen Dateien im GitHub-Repository ersetzen.
+2. Den Inhalt dieses Ordners in das Stammverzeichnis des Repositorys hochladen.
+3. GitHub Pages auf `main` und `/(root)` einstellen.
+4. Einige Minuten auf die Aktualisierung warten.
 
-1. Den Inhalt dieses Ordners in das öffentliche Repository `albumvault` hochladen.
-2. Im Repository **Settings → Pages** öffnen.
-3. Unter **Build and deployment** die Quelle **Deploy from a branch** wählen.
-4. Branch `main` und Ordner `/ (root)` auswählen und speichern.
-5. Die Website ist anschließend erreichbar unter:
-   `https://albumvaultofficial.github.io/albumvault/`
-
-## URLs für App Store Connect
-
-- Datenschutz: `https://albumvaultofficial.github.io/albumvault/privacy.html`
-- Support: `https://albumvaultofficial.github.io/albumvault/support.html`
-
-Die Impressumsseite wurde für die reine TestFlight-Phase entfernt. Vor einer öffentlichen Veröffentlichung im App Store sollten Datenschutz, Kontaktangaben und die rechtlichen Anforderungen nochmals geprüft und an den finalen Funktionsumfang angepasst werden.
+Es ist bewusst keine Impressumsseite enthalten.

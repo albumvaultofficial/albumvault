@@ -1,79 +1,92 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AlbumVault – deine moderne App zur Verwaltung von Stickeralben, Fortschritt, Duplikaten, Statistiken und Tauschen.">
-  <title>AlbumVault – Your collection companion</title>
-  <link rel="stylesheet" href="assets/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="AlbumVault – your collection companion for sticker albums.">
+<title>AlbumVault – Your collection companion</title>
+<link rel="icon" href="assets/albumvault-icon.jpg">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>AlbumVault</span></a>
-    <nav class="nav-links" aria-label="Hauptnavigation">
-      <a aria-current="page" href="index.html">Start</a>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Datenschutz</a>
-      
-    </nav>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/albumvault-icon.jpg" alt="AlbumVault Icon">
+      <span>AlbumVault</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#features"><span data-lang="de">Funktionen</span><span data-lang="en">Features</span></a>
+      <a href="support.html"><span data-lang="de">Support</span><span data-lang="en">Support</span></a>
+      <a href="privacy.html"><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+      <div class="lang-switch">
+        <button type="button" data-set-lang="de">DE</button>
+        <button type="button" data-set-lang="en">EN</button>
+      </div>
+    </div>
   </div>
-</header>
+</nav>
 
 <main>
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <span class="eyebrow">Your collection companion</span>
-        <h1>Deine Sammlung.<br>Perfekt organisiert.</h1>
-        <p class="lead">AlbumVault bringt Stickeralben, Fortschritt, Duplikate, Statistiken, Achievements und Tauschen in einer modernen Premium-App zusammen.</p>
-        <div class="actions">
-          <a class="button button-primary" href="#features">Funktionen entdecken</a>
-          <a class="button button-secondary" href="support.html">Support öffnen</a>
-        </div>
-      </div>
-      <div class="app-visual">
-        <img class="official-app-icon" src="assets/app-icon.webp" alt="Offizielles AlbumVault App-Icon" width="900" height="900">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">AlbumVault</div>
+      <h1>Your collection companion.</h1>
+      <p data-lang="de">Verwalte deine Stickeralben, behalte fehlende und doppelte Sticker im Blick und verfolge deinen Fortschritt an einem Ort.</p>
+      <p data-lang="en">Manage your sticker albums, keep track of missing and duplicate stickers, and follow your progress in one place.</p>
+      <div class="actions">
+        <a class="button primary" href="support.html"><span data-lang="de">TestFlight-Support</span><span data-lang="en">TestFlight support</span></a>
+        <a class="button secondary" href="privacy.html"><span data-lang="de">Datenschutz ansehen</span><span data-lang="en">View privacy policy</span></a>
       </div>
     </div>
-  </section>
+    <div class="hero-card"><img src="assets/albumvault-icon.jpg" alt="Offizielles AlbumVault App-Icon"></div>
+  </div>
+</section>
 
-  <section id="features" class="section section-muted">
-    <div class="container">
-      <div class="section-heading">
-        <span class="eyebrow">AlbumVault</span>
-        <h2>Alles, was Sammler brauchen</h2>
-        <p>Ein klarer Überblick, schnelle Erfassung und hilfreiche Werkzeuge für jede Sammlung.</p>
-      </div>
-      <div class="card-grid">
-        <article class="card"><div class="card-icon">01</div><h3>Mehrere Alben</h3><p>Verwalte verschiedene Turnier- und Stickeralben mit getrennten Fortschritten und Speicherständen.</p></article>
-        <article class="card"><div class="card-icon">02</div><h3>Schnelle Erfassung</h3><p>Markiere gesammelte, fehlende und doppelte Sticker in wenigen Schritten.</p></article>
-        <article class="card"><div class="card-icon">03</div><h3>Statistiken</h3><p>Behalte Gesamtfortschritt, abgeschlossene Bereiche und wichtige Kennzahlen im Blick.</p></article>
-        <article class="card"><div class="card-icon">04</div><h3>Achievements</h3><p>Schalte Bronze-, Silber-, Gold- und seltene Erfolge während deiner Sammelreise frei.</p></article>
-        <article class="card"><div class="card-icon">05</div><h3>Tauschen</h3><p>Vergleiche Freundeslisten und exportiere fehlende oder doppelte Sticker als übersichtlichen Text.</p></article>
-        <article class="card"><div class="card-icon">06</div><h3>Premium</h3><p>Schalte alle verfügbaren und zukünftigen Premium-Alben mit einem einmaligen Kauf frei.</p></article>
-      </div>
+<section id="features">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow"><span data-lang="de">Alles im Blick</span><span data-lang="en">Everything in one place</span></div>
+      <h2><span data-lang="de">Für Sammler gemacht.</span><span data-lang="en">Built for collectors.</span></h2>
+      <p data-lang="de">AlbumVault verbindet schnelle Erfassung mit Statistiken, Tauschlisten und Erfolgen.</p>
+      <p data-lang="en">AlbumVault combines fast collection tracking with statistics, trade lists, and achievements.</p>
     </div>
-  </section>
+    <div class="grid">
+      <article class="card"><div class="icon">📚</div><h3><span data-lang="de">Mehrere Alben</span><span data-lang="en">Multiple albums</span></h3><p data-lang="de">Verwalte verschiedene Sammlungen unabhängig voneinander.</p><p data-lang="en">Manage different collections independently.</p></article>
+      <article class="card"><div class="icon">📊</div><h3><span data-lang="de">Fortschritt & Statistiken</span><span data-lang="en">Progress & statistics</span></h3><p data-lang="de">Sieh sofort, was gesammelt, fehlend oder doppelt ist.</p><p data-lang="en">Instantly see what is collected, missing, or duplicated.</p></article>
+      <article class="card"><div class="icon">🔁</div><h3><span data-lang="de">Tauschlisten</span><span data-lang="en">Trade lists</span></h3><p data-lang="de">Erstelle übersichtliche Listen für Freunde und andere Sammler.</p><p data-lang="en">Create clear lists for friends and other collectors.</p></article>
+      <article class="card"><div class="icon">🏆</div><h3><span data-lang="de">Achievements</span><span data-lang="en">Achievements</span></h3><p data-lang="de">Schalte Erfolge frei, während deine Sammlung wächst.</p><p data-lang="en">Unlock achievements as your collection grows.</p></article>
+      <article class="card"><div class="icon">🔎</div><h3><span data-lang="de">Schnelle Suche</span><span data-lang="en">Fast search</span></h3><p data-lang="de">Finde Sticker nach Nummer, Name, Team oder Bereich.</p><p data-lang="en">Find stickers by number, name, team, or section.</p></article>
+      <article class="card"><div class="icon">✨</div><h3><span data-lang="de">Premium-Erlebnis</span><span data-lang="en">Premium experience</span></h3><p data-lang="de">Ein modernes Design, optimiert für iPhone und Sammler.</p><p data-lang="en">A modern experience designed for iPhone and collectors.</p></article>
+    </div>
+  </div>
+</section>
 
-  <section class="section">
-    <div class="container info-band">
+<section>
+  <div class="container">
+    <div class="beta">
       <div>
-        <span class="eyebrow">Beta</span>
-        <h2>AlbumVault wird aktuell weiterentwickelt</h2>
-        <p class="lead">Feedback aus TestFlight hilft dabei, Bedienung, Stabilität und kommende Funktionen weiter zu verbessern.</p>
+        <h2><span data-lang="de">Aktuell in der TestFlight-Phase</span><span data-lang="en">Currently in TestFlight beta</span></h2>
+        <p data-lang="de">AlbumVault wird derzeit getestet und weiter verbessert. Rückmeldungen können direkt über TestFlight gesendet werden.</p>
+        <p data-lang="en">AlbumVault is currently being tested and improved. Feedback can be submitted directly through TestFlight.</p>
       </div>
-      <a class="button button-primary" href="support.html">Feedback & Support</a>
+      <a class="button secondary" href="support.html"><span data-lang="de">Support öffnen</span><span data-lang="en">Open support</span></a>
     </div>
-  </section>
+  </div>
+</section>
 </main>
 
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>© <span data-year></span> AlbumVault</div>
-    <div class="footer-links"><a href="privacy.html">Datenschutz</a><a href="support.html">Support</a></div>
+<footer>
+  <div class="container footer-inner">
+    <div>© 2026 AlbumVault</div>
+    <div class="footer-links">
+      <a href="privacy.html"><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+      <a href="support.html">Support</a>
+    </div>
   </div>
 </footer>
-<script src="assets/site.js"></script>
-</body>
-</html>
+
+<script src="assets/script.js"></script>
+</body></html>
